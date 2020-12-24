@@ -1,0 +1,14 @@
+{% extends 'layout.html' %}
+{% block body %}
+<br><br>
+<form action= '' method='POST'>
+    {{ form.hidden_tag() }}
+    {{ form.clubname.label }} {{form.clubname}} <br>
+    {{ form.clublocation.label }}  {{form.clublocation}}  <br>
+    {{form.email.label}}    {{form.email}} <br>
+    {{form.clubmanager.label}}  {{form.clubmanager}} <br>
+      <br>
+    {{ form.submit }}
+</form>
+
+{% endblock body %}

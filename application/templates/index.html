@@ -1,0 +1,37 @@
+{% extends 'layout.html' %}
+{% block body %}
+
+<h2>Here are a list of boxers</h2> 
+
+{% for club in all_clubs %}
+    <h4>Clubs</h4>
+    Clubname: {{ club.clubname }}<br>
+    Clublocation : {{ club.clublocation }}<br>
+    Email: {{ club.email }}<br>
+    Clubmanager: {{ club.clubmanager }}<br>
+<form action="{{ url_for('deleteclub', club_id=club.id) }}" >
+    <input type=submit value="Delete club"> 
+</form>
+
+    <br>
+{% for boxer in all_boxers %}
+{% if boxer.club == club.id %}
+Firstname: {{ boxer.firstname }} <br>
+lastname: {{ boxer.lastname }} <br>
+weightclass: {{ boxer.weightclass}} <br>
+email: {{ boxer.email }} <br>
+    
+    <br>  
+<div style="display: flex;">     
+    <form style="margin-right: 10px;"  action="{{ url_for('update', boxer_id=boxer.id) }}">
+        <input type=submit value="Update">
+    </form>
+    <form action="{{ url_for('delete', boxer_id=boxer.id) }}">
+        <input type=submit value="Delete">
+    </form>
+</div>
+    <br><br>
+{% endif %}
+{% endfor %}
+{% endfor %}
+{% endblock body %}
