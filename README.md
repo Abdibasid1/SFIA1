@@ -124,20 +124,17 @@ Once the user clicks the add boxer button the new information will displayed on 
 ##### Delete Boxer
 The user can delete a boxer from a club by clicking on the delete button under the boxers information. In this instance the boxer Mike Tyson will be deleted from the Stonebridge boxing club.
 
-![delete boxer](https://user-images.githubusercontent.com/74771255/103379666-52f64b00-4ade-11eb-8159-4bfd51a53bc4.jpg)
+![delete boxer](https://user-images.githubusercontent.com/74771255/103382327-8dfc7c80-4ae6-11eb-8515-582e81e9c67a.jpg)
 
 Once the boxer is deleted the boxers information is removed from the club.
 
-![actual deleted boxer](https://user-images.githubusercontent.com/74771255/103379674-5b4e8600-4ade-11eb-9628-c45886c85365.jpg)
+![actual deleted boxer](https://user-images.githubusercontent.com/74771255/103382328-90f76d00-4ae6-11eb-92d2-a8dd9c3bf599.jpg)
 
 
 ##### Delete Club
 The user can delete a club by click on the delete club button situated at the bottom of the club information this will remove club and boxers assigned to that club.
 
 ![delete club](https://user-images.githubusercontent.com/74771255/103380074-ab7a1800-4adf-11eb-844e-4230950804c9.jpg)
-
-
-
 
 
 
