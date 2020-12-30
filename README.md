@@ -60,7 +60,9 @@ I decided to create a site which will allow boxing club owners to create a boxin
 
 # **Architecture**
 ### Trello Board
+Trello is an incredible web-based project management and collaboration tool that helped me plan my project in one platform. Trello follows the Kanban system which aided me to schedule my tasks for the project into digestible components. Trello is a free system and utilises coloured labels according to my priority which was perfect for my small project.
 
+<img width="460" height="300" src="https://user-images.githubusercontent.com/74771255/103366250-03058d00-4aba-11eb-9f20-b049c46b2123.jpg">
 
 
 ### ERD
