@@ -78,8 +78,13 @@ This is my new ERD which shows how the database for the application is structure
 
 
 ## Risk Assesment 
+[Here is a link to the full risk assesment form]https://docs.google.com/spreadsheets/d/1ZyntPGcurU_Xrc7W5w9BoK8OMcglQ3lHaZJgJJV8-8o/edit?usp=sharing
 
+Screenshots of the risk assessment is provided below:
+Risk number 6 and 7 was added at the later stage of the project as these risks became clear to me.
 
+<img width="460" height="300" src="https://user-images.githubusercontent.com/74771255/103369473-22a0b380-4ac2-11eb-95b1-9dbed90c26bf.jpg">
+<img width="460" height="300" src="https://user-images.githubusercontent.com/74771255/103369484-26ccd100-4ac2-11eb-9c21-e11a9d446731.jpg">
 
 
 
