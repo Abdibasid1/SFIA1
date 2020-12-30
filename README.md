@@ -86,10 +86,62 @@ Risk number 6 and 7 was added at the later stage of the project as these risks b
 <img width="460" height="300" src="https://user-images.githubusercontent.com/74771255/103369473-22a0b380-4ac2-11eb-95b1-9dbed90c26bf.jpg">
 <img width="460" height="300" src="https://user-images.githubusercontent.com/74771255/103369484-26ccd100-4ac2-11eb-9c21-e11a9d446731.jpg">
 
-
-
 # **Development** 
 ### Front End 
+The front end of the website is created with HTML so it is basic but full functional. When the application is launched the user is directed to the Home page
+##### Home Page
+The home page displays the a create boxer and a create club button at the top. It also displays club information and the boxers assigned to that particular club.
+
+![home page 1](https://user-images.githubusercontent.com/74771255/103374934-ac577d80-4ad0-11eb-844c-b6b5a740ba3f.jpg)
+
+##### Create Boxer
+Once the user clicks on the create a boxer button they are directed to this page which will allow them to fill the boxers information. Also at the choose club section, the drop-down will list all the clubs created previously, this will allow the user to assign boxers to a specific club.once the user clicks on add boxer this information will be displayed on the home page.
+
+![create a boxer](https://user-images.githubusercontent.com/74771255/103376989-fbec7800-4ad5-11eb-831b-d0fa2ef4001c.jpg)
+
+once the user clicks on add boxer this information will be displayed on the home page.
+
+![actual created boxer](https://user-images.githubusercontent.com/74771255/103378923-e0846b80-4adb-11eb-86c0-fe25eac19eeb.png)
+
+##### Create club
+Upon the user clicking on the create a club button they will be directed to page which will allow them to fill the club information. Once the user clicks add club the information will be displayed on the home page.
+
+![create a club](https://user-images.githubusercontent.com/74771255/103377394-34d91c80-4ad7-11eb-82a6-94367701d65e.jpg)
+
+Once the user clicks add club the information will be displayed on the home page.
+
+![actual created club](https://user-images.githubusercontent.com/74771255/103379114-728c7400-4adc-11eb-9502-f24f971a7618.jpg)
+
+##### Update Boxer information 
+The user can update the boxers information from the home page by clicking on the update button under the boxers information. They will be directed to this page which is similar to the create a boxer page which displays a list of fields the user must fill in. In the screenshot below the user updates the weight class of the particular boxer from Cruzer weight to Heavyweight. Also, the original information of the boxer is displayed at the top.
+
+![update boxer](https://user-images.githubusercontent.com/74771255/103378061-065c4100-4ad9-11eb-8e01-e385b7b15704.png)
+
+Once the user clicks the add boxer button the new information will displayed on the homepage.
+
+![actual updated boxer](https://user-images.githubusercontent.com/74771255/103379205-c5fec200-4adc-11eb-8ab7-2e3273b45f8b.jpg)
+
+##### Delete Boxer
+The user can delete a boxer from a club by clicking on the delete button under the boxers information. In this instance the boxer Mike Tyson will be deleted from the Stonebridge boxing club.
+
+![delete boxer](https://user-images.githubusercontent.com/74771255/103379666-52f64b00-4ade-11eb-8159-4bfd51a53bc4.jpg)
+
+Once the boxer is deleted the boxers information is removed from the club.
+
+![actual deleted boxer](https://user-images.githubusercontent.com/74771255/103379674-5b4e8600-4ade-11eb-9628-c45886c85365.jpg)
+
+
+##### Delete Club
+The user can delete a club by click on the delete club button situated at the bottom of the club information this will remove club and boxers assigned to that club.
+
+![delete club](https://user-images.githubusercontent.com/74771255/103380074-ab7a1800-4adf-11eb-844e-4230950804c9.jpg)
+
+
+
+
+
+
+
 
 
 
