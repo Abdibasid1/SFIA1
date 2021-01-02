@@ -16,6 +16,10 @@
 * Testing
   * Unit Testing
   * Coverage
+  
+* Future Improvements
+
+* Author
 
 # *Introduction*
 ### Objective
@@ -147,10 +151,13 @@ The user can delete a club by click on the delete club button situated at the bo
 ![pytest cov](https://user-images.githubusercontent.com/74771255/103466638-9a7b1200-4d3e-11eb-9200-8788a72f0cda.jpg)
 
 
-#### Coverage
+##### Coverage
 
 ![cov](https://user-images.githubusercontent.com/74771255/103466134-f1cab380-4d39-11eb-8721-fc2e83c44ea6.jpg)
 
-  
+
+### Future Improvements
+
+### Author
 
  
