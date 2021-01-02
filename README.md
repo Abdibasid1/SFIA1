@@ -146,6 +146,7 @@ The user can delete a club by click on the delete club button situated at the bo
 ### Testing
 ##### Unit Testing(Pytest)
 
+
 ![pytest](https://user-images.githubusercontent.com/74771255/103466640-9f3fc600-4d3e-11eb-9455-a2f2e16b64ce.jpg)
 
 ![pytest cov](https://user-images.githubusercontent.com/74771255/103466638-9a7b1200-4d3e-11eb-9200-8788a72f0cda.jpg)
@@ -157,7 +158,10 @@ The user can delete a club by click on the delete club button situated at the bo
 
 
 ### Future Improvements
+* 
+* 
 
 ### Author
 
+Abdibasid Yacquub
  
