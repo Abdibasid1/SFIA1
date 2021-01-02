@@ -12,7 +12,10 @@
 
 * Development 
   * Front End 
+  
+* Testing
   * Unit Testing
+  * Coverage
 
 # *Introduction*
 ### Objective
@@ -138,15 +141,16 @@ The user can delete a club by click on the delete club button situated at the bo
 
 
 
+### Testing
+##### Unit Testing(Pytest)
 
+![pytest](https://user-images.githubusercontent.com/74771255/103466178-964cf580-4d3a-11eb-8e6f-c2454ae09cf4.jpg)
 
+![pytest cov](https://user-images.githubusercontent.com/74771255/103466179-96e58c00-4d3a-11eb-9940-17fefdd2a964.jpg)
 
+#### Coverage
 
-### Unit Testing
-
-
-
-
+![cov](https://user-images.githubusercontent.com/74771255/103466134-f1cab380-4d39-11eb-8721-fc2e83c44ea6.jpg)
 
   
 
