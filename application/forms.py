@@ -8,7 +8,7 @@ class BoxerForm(FlaskForm):
     lastname = StringField('The boxers lastname', validators=[DataRequired()])
     email = StringField('The boxers email', validators=[DataRequired()])
     weightclass = StringField('The weightclass', validators=[DataRequired()])
-    club = SelectField(' Choose club', choices=[(c.id, c.clubname) for c in Club.query.order_by("clubname") ])
+    club = SelectField(' Choose club', choices= [])
     submit = SubmitField('Add Boxer')
 
 class ClubForm(FlaskForm):

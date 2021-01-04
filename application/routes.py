@@ -15,6 +15,7 @@ def home():
 @app.route("/addboxer", methods=["GET","POST"])
 def addboxer():
     form = BoxerForm()
+    form.club.choices = [(c.id, c.clubname) for c in Club.query.order_by("clubname")]
     if request.method == "POST":
         if form.validate_on_submit():
             new_boxer = Boxer(
