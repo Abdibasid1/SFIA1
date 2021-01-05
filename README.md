@@ -1,25 +1,27 @@
 # **SFIA1**
 
 # **Contents**
-* Introduction
-  * Objective
-  * Proposal
+* [Introduction](#introduction)
+  * [Objective](#objective)
+  * [Proposal](#proposal)
 
-* Architecture
-  * Trello Board
-  * ERD
-  * Risk Assesment 
+* [Architecture](#architecture )
+  * [Trello Board](#trello-Board)
+  * [ERD](#erd)
+  * [Risk Assesment](#risk-assesment )
+  * [Continuous Integration](#continuous-integration)
 
-* Development 
-  * Front End 
+* [Development](#development)
+  * [Front End](#front-end)
   
-* Testing
-  * Unit Testing
-  * Coverage
-  
-* Future Improvements
+* [Testing](#testing)
+  * [Unit Testing Console](#unit-testing-console)
+  * [Unit Testing Jenkins](#unit-testing-jenkins)
+  * [Coverage](#coverage)
 
-* Author
+* [Future Improvements](#future-improvement)
+
+* [Author](#author)
 
 # *Introduction*
 ### Objective
@@ -38,7 +40,8 @@ The following requirements are required from me:
 * Code fully integrated into Github
 
 ### Proposal
-I decided to create a site which will allow boxing club owners to create a boxing club and create a boxer which they can assign to a particular club, with this inplace it allows the club owner 
+I decided to create a site which will allow boxing club owners to create a boxing club and create a boxer. They can assign a boxer to a particular club, with this inplace it allows the club owner to extract information with ease. 
+An outline of how CRUD will be implemented can be seen below.
 
 #### The two create functions below satifies Create
 * Create a boxer:
@@ -79,7 +82,7 @@ This is the initial Entity-relationship diagram which showcases the tables for A
 <img width="460" height="300" src="https://user-images.githubusercontent.com/74771255/103309306-b2842600-4a0c-11eb-81a2-3e295dfb083c.jpg">
 
 ##### *New ERD*
-This is my new ERD which shows how the database for the application is structured. The Club and Boxer tables have a one to many relationship. This allows the club owner to assign a boxer to a particular club during the creating of a boxer stage. This will then enable the club owner to view which boxers are at a particular club.
+This is my new ERD which shows how the database for the application is structured. The Club and Boxer tables have a one to many relationship. This allows the club owner to assign a boxer to a particular club during the creating of a boxer stage. This will then enable the club owner to view which boxers are assigned to a particular club.
 
 <img width="460" height="300" src="https://user-images.githubusercontent.com/74771255/103321075-e290f080-4a2f-11eb-920a-6c573ecf8099.jpg">
 
@@ -92,6 +95,12 @@ Risk number 6 and 7 was added at the later stage of the project as these risks b
 
 <img width="460" height="300" src="https://user-images.githubusercontent.com/74771255/103369473-22a0b380-4ac2-11eb-95b1-9dbed90c26bf.jpg">
 <img width="460" height="300" src="https://user-images.githubusercontent.com/74771255/103369484-26ccd100-4ac2-11eb-9c21-e11a9d446731.jpg">
+
+
+## Continuous Integration
+
+![CI](https://user-images.githubusercontent.com/74771255/103577491-d643e200-4ecc-11eb-8baf-92cee5a1c672.jpg)
+Jenkins is an open-source automation tool with plugins built for Continuous Integration purposes. Jenkins was used to build and test my project continuously making it easier for me to integrate changes to the project, and making it easier for me to obtain a fresh build. For the project the code was pushed to Github then Jenkins fetched and built the repository, lastly it run the unit test.
 
 # **Development** 
 ### Front End 
@@ -106,7 +115,7 @@ Once the user clicks on the create a boxer button they are directed to this page
 
 ![create a boxer](https://user-images.githubusercontent.com/74771255/103376989-fbec7800-4ad5-11eb-831b-d0fa2ef4001c.jpg)
 
-once the user clicks on add boxer this information will be displayed on the home page.
+Once the user clicks on add boxer this information will be displayed on the home page.
 
 ![actual created boxer](https://user-images.githubusercontent.com/74771255/103378923-e0846b80-4adb-11eb-86c0-fe25eac19eeb.png)
 
@@ -144,22 +153,31 @@ The user can delete a club by click on the delete club button situated at the bo
 ![delete club](https://user-images.githubusercontent.com/74771255/103380074-ab7a1800-4adf-11eb-844e-4230950804c9.jpg)
 
 ### Testing
-##### Unit Testing(Pytest)
-
+##### Unit Testing Console
+Unit test was conducted for the project to test every function of the site. The test written asserts actions into the application and returns the set response given with in the unit testing. 
 
 ![pytest](https://user-images.githubusercontent.com/74771255/103466640-9f3fc600-4d3e-11eb-9455-a2f2e16b64ce.jpg)
 
+The coverage in the console:
+
 ![pytest cov](https://user-images.githubusercontent.com/74771255/103466638-9a7b1200-4d3e-11eb-9200-8788a72f0cda.jpg)
 
+##### Unit Testing Jenkins
+The same principle applies to the jenkins unit test however the test is conducted automatically here after i push to the repository.  
+
+![testjenkins](https://user-images.githubusercontent.com/74771255/103578681-e8bf1b00-4ece-11eb-997c-6ab28766e2b4.jpg)
 
 ##### Coverage
+The HTML format of the coverage was produced to show how much of the code in the app has been tested successfully.
 
 ![cov](https://user-images.githubusercontent.com/74771255/103466134-f1cab380-4d39-11eb-8721-fc2e83c44ea6.jpg)
 
 
 ### Future Improvements
-* 
-* 
+* In the future I will implement integration test (selenium) and systemd within the coding stage of the project. 
+* More fields for the when the boxer is getting created i.e. Records and Telephone number.
+* Allow deletion of a club with boxers as currently, that is not fully functional only clubs without boxers can be deleted.
+* Implement a login function for the club owner and club manager as this will outline the roles and responsibility of different users of the application as its currently only tailored for the club owner.
 
 ### Author
 
