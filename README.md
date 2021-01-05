@@ -71,6 +71,7 @@ An outline of how CRUD will be implemented can be seen below.
 # **Architecture**
 ### Trello Board
 Trello is an incredible web-based project management and collaboration tool that helped me plan my project in one platform. Trello follows the Kanban system which aided me to schedule my tasks for the project into digestible components. Trello is a free system and utilises coloured labels according to my priority which was perfect for my small project.
+Next to each card the MOSCOW rule was followed the M is must, C is could and S is should. 
 
 <img width="460" height="300" src="https://user-images.githubusercontent.com/74771255/103366250-03058d00-4aba-11eb-9f20-b049c46b2123.jpg">
 
